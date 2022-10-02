@@ -17,8 +17,8 @@ def inspect_data(dataset, column="train", rows=5):
     # load dataset
     dataset = load_dataset(dataset)
     # get first 5 rows of first split
-    data = dataset[column][0:rows]
-    return data
+    output = dataset[column][0:rows]
+    return output
 
 
 # Load a dataset and print the first example in the training set
