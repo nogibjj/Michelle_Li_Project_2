@@ -2,7 +2,7 @@
 
 ## Key Objectives
 
-I built a bash command line tool that reads a file and ouputs: '
+I built a bash command line tool that reads a file and ouputs: 
 1. Number of columns 
 2. Number of rows
 3. First 3 rows
@@ -28,8 +28,8 @@ The example file is a CSV file containing Yelp reviews and ratings from [Hugging
 * Build docker using `docker build -t imagename .`.
 * Run main.sh with image id `docker run -t d55f7cbf506b /bin/bash main.sh my-dataset-train.csv`.
 
-### 3. Push container image to Dockerhub 
-* Create access token in Dockerhub. 
+### 3. Push container image to Docker Hub 
+* Create access token in Docker Hub. 
 * Create access token in Docker Hub. 
 * Copy access token and add to Codespace Secrets (DOCKERHUB_TOKEN).  
 * Create repo in Docker Hub. 
