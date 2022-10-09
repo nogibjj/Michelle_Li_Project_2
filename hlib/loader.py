@@ -22,8 +22,8 @@ def inspect_data(dataset, column="train", rows=5):
 
 
 # Load a dataset and print the first example in the training set
-#dataset = load_dataset("yelp_review_full")
+# dataset = load_dataset("yelp_review_full")
 
 # write a pandas dataframe to gzipped CSV file
-#for split, data in dataset.items():
+# for split, data in dataset.items():
 #    data.to_csv(f"my-dataset-{split}.csv", index = None, compression="gzip")
