@@ -16,7 +16,7 @@ The repo is pushed to Dockerhub and can be accessed in Cloud9. Check out my demo
 The example file is a CSV file containing Yelp reviews and ratings from ![Hugging Face] (https://huggingface.co/datasets/yelp_review_full), extracted from the 2015 Yelp Review Challenge. It contains 2 data fields, which are 'text' for reviews and 'label' for ratings. There are 130,000 reviews in the training data and 10,000 reviews in the testing data. 
 
 ## Workflow Diagram
-![Project2 drawio](https://user-images.githubusercontent.com/70456530/194739076-4d738157-01f0-4eb8-9e0e-7380288653d6.png)
+![Project2 drawio](https://user-images.githubusercontent.com/70456530/194739131-332e1f94-ed63-487a-bb95-3ba5a2d294fd.png)
 
 ## Workflow Steps 
 
