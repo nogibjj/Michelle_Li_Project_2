@@ -33,13 +33,13 @@ Demo
 * Push with `docker push michellejieli/proj2`.
 * To verify that repo runs: https://hub.docker.com/repository/docker/michellejieli/proj2
 
-# Run Docker Hub repo in Cloud9 (![Class lecture] [https://duke.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=65156928-c3ae-4ef7-87a3-aefb00fbb6ad])
+## 4. Run Docker Hub repo in Cloud9 ([Class lecture](https://duke.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=65156928-c3ae-4ef7-87a3-aefb00fbb6ad))
 * Create AWS account. 
 * Create a new envivronment in Cloud9.
 * Run code locally with `docker run -it michellejieli/proj2:latest /bin/bash main.sh my-dataset-test.csv`
 * In new environment, navigate to AWS > ECR and create registry for container.
 * Get authentication token and authenticate Docker to your registry (command found in ECR push commands): `aws ecr get-login-password --region us-east-1 | docker login --username AWS --password-stdin 681238067355.dkr.ecr.us-east-1.amazonaws.com`
 * Retag existing Docker image: `docker tag michellejieli/proj2 681238067355.dkr.ecr.us-east-1.amazonaws.com/proj2:latest`
-* Push Docker image to ![AWS repo] [https://us-east-1.console.aws.amazon.com/ecr/repositories/private/681238067355/proj2?region=us-east-1]: `docker push 681238067355.dkr.ecr.us-east-1.amazonaws.com/proj2:latest`
+* Push Docker image to [AWS repo](https://us-east-1.console.aws.amazon.com/ecr/repositories/private/681238067355/proj2?region=us-east-1): `docker push 681238067355.dkr.ecr.us-east-1.amazonaws.com/proj2:latest`
 * Run main.sh in AWS repo: `docker run -it 681238067355.dkr.ecr.us-east-1.amazonaws.com/proj2:latest /bin/bash main.sh my-dataset-test.csv`
 
