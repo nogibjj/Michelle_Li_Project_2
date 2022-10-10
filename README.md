@@ -9,7 +9,7 @@ I built a bash command line tool that reads a file and ouputs:
 4. Number of unique ratings
 5. Average rating 
 
-The repo is pushed to Dockerhub and can be accessed in Cloud9. Check out my demo video here. 
+The repo is pushed to Docker Hub and can be accessed in Cloud9.
 
 ## Dataset 
 
