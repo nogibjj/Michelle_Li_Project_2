@@ -30,7 +30,6 @@ The example file is a CSV file containing Yelp reviews and ratings from [Hugging
 
 ### 3. Push container image to Docker Hub 
 * Create access token in Docker Hub. 
-* Create access token in Docker Hub. 
 * Copy access token and add to Codespace Secrets (DOCKERHUB_TOKEN).  
 * Create repo in Docker Hub. 
 * Login to Docker Hub using `$ docker login -u michellejieli -p $DOCKERHUB_TOKEN` in Codespace terminal.
